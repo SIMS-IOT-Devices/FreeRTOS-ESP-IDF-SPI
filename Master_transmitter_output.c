@@ -1,4 +1,4 @@
-// Master for SPI communication
+// Master as transmitter for SPI communication
 
 #include <stdio.h>
 #include <stdint.h>
