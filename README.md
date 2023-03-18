@@ -6,4 +6,4 @@
     &emsp;&nbsp;&nbsp;The Master_transmitter_output.c file sends "A" character to the slave, and the Slave_receiver_input.c file receives "A" from a master.
     
 3 - ESP32 - ESP32 (Master as receiver):<br> 
-    &emsp;&nbsp;&nbsp;The Master_receiver.c file receives a string from the slave, and the Slave_trncmitter.c file sends a string to the master.
+    &emsp;&nbsp;&nbsp;The Master_receiver.c file receives a string from the slave, and the Slave_transmitter.c file sends a string to the master.
