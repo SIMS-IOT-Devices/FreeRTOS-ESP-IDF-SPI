@@ -1,4 +1,4 @@
-// Slave for SPI communitation
+// Slave as receiver for SPI communitation
 
 #include <stdio.h>
 #include <stdint.h>
