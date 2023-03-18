@@ -72,7 +72,7 @@ void app_main(void)
         t.length = sizeof(sendbuf) * 8;
         t.tx_buffer = sendbuf;
         spi_device_transmit(handle, &t);
-        printf("Sended: %s\n", sendbuf);
+        printf("Transmitted: %s\n", sendbuf);
         vTaskDelay(1000 / portTICK_PERIOD_MS);
     }
 }
