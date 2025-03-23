@@ -1,5 +1,4 @@
 import spidev
-import time
 
 # Create an SPI instance
 spi = spidev.SpiDev()
