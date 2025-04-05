@@ -1,6 +1,6 @@
 # FreeRTOS-ESP-IDF-SPI
 1 - ESP32 - Scope:<br> 
-    &emsp;&nbsp;&nbsp;VSPI_initiation.c file Master SPI (VSPI) initiation is implemented.
+    &emsp;&nbsp;&nbsp;1 - VSPI_initiation.c file Master SPI (VSPI) initiation is implemented.
     
 2 - ESP32 - ESP32 (Master as transmitter):<br> 
     &emsp;&nbsp;&nbsp;Master_transmitter_output.c file sends "A" character to the slave,<br> 
