@@ -7,8 +7,8 @@
     &emsp;&nbsp;&nbsp;2 - Slave_receiver_input.c file receives "A" from a master.
     
 3 - ESP32 - ESP32 (Master as receiver):<br> 
-    &emsp;&nbsp;&nbsp;Master_receiver.c file receives a string from the slave,<br> 
-    &emsp;&nbsp;&nbsp;Slave_transmitter.c file sends a string to the master.
+    &emsp;&nbsp;&nbsp;3 - Master_receiver.c file receives a string from the slave,<br> 
+    &emsp;&nbsp;&nbsp;3 - Slave_transmitter.c file sends a string to the master.
 
 4 - ESP32 - Raspberry Pi 5 (Master as receiver):<br> 
     &emsp;&nbsp;&nbsp;4 - SPI ESP32 Slave transmit.c file sends a hexadecimal value<br> 
