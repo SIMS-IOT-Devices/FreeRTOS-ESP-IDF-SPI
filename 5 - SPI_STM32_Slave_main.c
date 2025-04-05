@@ -1,6 +1,7 @@
 /* USER CODE BEGIN Header */
 
-// SPI in Slave configuration
+// SPI on STM32 as Slave to transmit to RP5
+
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
