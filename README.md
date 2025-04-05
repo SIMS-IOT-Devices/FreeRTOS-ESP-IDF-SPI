@@ -14,3 +14,7 @@
     &emsp;&nbsp;&nbsp;SPI ESP32 Slave transmit.c file sends a hexadecimal value<br> 
     &emsp;&nbsp;&nbsp;SPI Raspberry Pi 5 Master receive.py file receives a hexadecimal value
 
+5 - STM32 - Raspberry Pi 5 (Master as receiver):<br> 
+    &emsp;&nbsp;&nbsp;SPI STM32 Slave transmit.c file sends a hexadecimal value<br> 
+    &emsp;&nbsp;&nbsp;SPI Raspberry Pi 5 Master receive.py file receives a hexadecimal value
+
