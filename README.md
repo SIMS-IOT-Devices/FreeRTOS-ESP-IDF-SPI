@@ -3,8 +3,8 @@
     &emsp;&nbsp;&nbsp;1 - VSPI_initiation.c file Master SPI (VSPI) initiation is implemented.
     
 2 - ESP32 - ESP32 (Master as transmitter):<br> 
-    &emsp;&nbsp;&nbsp;Master_transmitter_output.c file sends "A" character to the slave,<br> 
-    &emsp;&nbsp;&nbsp;Slave_receiver_input.c file receives "A" from a master.
+    &emsp;&nbsp;&nbsp;2 - Master_transmitter_output.c file sends "A" character to the slave,<br> 
+    &emsp;&nbsp;&nbsp;2 - Slave_receiver_input.c file receives "A" from a master.
     
 3 - ESP32 - ESP32 (Master as receiver):<br> 
     &emsp;&nbsp;&nbsp;Master_receiver.c file receives a string from the slave,<br> 
