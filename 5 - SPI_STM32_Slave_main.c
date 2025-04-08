@@ -1,7 +1,6 @@
 /* USER CODE BEGIN Header */
 
-// SPI on STM32 as Slave to transmit to RP5
-
+// SPI in Slave configuration
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
@@ -56,21 +55,9 @@ static void MX_SPI1_Init(void);
 int main(void) {
 
 	/* USER CODE BEGIN 1 */
-//	char uart_buf[50];
-//	int uart_buf_len;
-//	char spi_buf[20];
-//
-//	uint8_t addr;
-//	uint8_t wip;
 
 	uint8_t tx_data[] = { 0xaa };
-//	int rx_data_len;
 
-//	char rx_data[30];
-//	char rx_data = '0';
-
-//	uint8_t rx_data[20];
-//	uint8_t rx_data;
 	/* USER CODE END 1 */
 
 	/* MCU Configuration--------------------------------------------------------*/
@@ -94,23 +81,11 @@ int main(void) {
 	MX_USART2_UART_Init();
 	MX_SPI1_Init();
 	/* USER CODE BEGIN 2 */
+
 	// CS pin should default high
 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_6, GPIO_PIN_SET);
-//	HAL_SPI_Receive(&hspi1, &receivedData, 1, HAL_MAX_DELAY);
-
 	HAL_SPI_Transmit(&hspi1, tx_data, sizeof(tx_data), 1000);
-//	HAL_Delay(1000);
-//	HAL_SPI_Receive(&hspi1, rx_data, 4, HAL_MAX_DELAY);
 
-//	char msg[20];
-//	while (1) {
-//		uart_buf_len = snprintf(msg, sizeof(msg), "Received: %c\r\n", receivedData);
-//		HAL_UART_Transmit(&huart2, msg, uart_buf_len, 1000);
-//		rx_data_len = snprintf(rx_data, 30, "Received: %#x\n", rx_data);
-//		snprintf(rx_data, 20, "Received: %c\r\n", rx_data[0]);
-//		HAL_UART_Transmit(&huart2, rx_data, 20, 1000);
-//		HAL_Delay(5000);
-//	}
 	/* USER CODE END 2 */
 
 	/* Infinite loop */
