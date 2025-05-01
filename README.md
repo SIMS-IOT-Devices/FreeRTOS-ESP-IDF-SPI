@@ -18,3 +18,7 @@
     &emsp;&nbsp;&nbsp;5 - SPI_STM32_Slave_main.c file sends a hexadecimal value<br> 
     &emsp;&nbsp;&nbsp;5 - SPI_RP5_Master.py file receives a hexadecimal value
 
+6 - STM32 - ESP32 (ESP32 Master as receiver):<br>
+   &emsp;&nbsp;&nbsp;6 - Master_receiver.c file receives a string from the slave,<br>
+   &emsp;&nbsp;&nbsp;6 - Slave_transmitter.c file sends a string to the master.
+
